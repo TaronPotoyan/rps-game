@@ -1,0 +1,51 @@
+
+#Rock {
+    background-color: red;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 15%;
+    text-align: center;
+
+}
+#Rock:hover {
+    background-color: rgb(185, 13, 13);
+}
+
+#paper:hover {
+    background-color: rgb(15, 15, 220);
+}
+
+#Scissors:hover {
+    background-color: rgb(161, 169, 15);
+}
+
+#paper {
+    background-color: rgb(12, 101, 225);
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 15%;
+    text-align: center;
+}
+#Scissors {
+    background-color: rgb(230, 223, 13);
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+h1,h3 {
+    text-align: center;
+}
+.list,p{
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+#first{
+    color: red;
+}
+#second {
+    color: blue;
+}
+
